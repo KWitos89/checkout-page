@@ -257,6 +257,10 @@ header .title-mob {
 .orders-mob .first-box-mob .btn-mob .minus-mob {
   width: 2rem;
   height: 2rem;
+  border: 1px solid var(--colorplace);
+  border-radius: .5rem;
+  -webkit-box-shadow: 0 0.1rem 0.1rem var(--colorplace);
+          box-shadow: 0 0.1rem 0.1rem var(--colorplace);
   font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,14 +271,16 @@ header .title-mob {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 0.5rem;
 }
 
 .orders-mob .first-box-mob .btn-mob .plus-mob {
   width: 2rem;
   height: 2rem;
   font-size: 2rem;
+  border: 1px solid var(--colorplace);
   border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.1rem 0.1rem var(--colorplace);
+          box-shadow: 0 0.1rem 0.1rem var(--colorplace);
 }
 
 .orders-mob .first-box-mob .btn-mob .plus-mob .plu {
@@ -393,6 +399,7 @@ section.contact-mob .grid select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+  background: none;
 }
 
 section.contact-mob i {

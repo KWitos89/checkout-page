@@ -201,16 +201,20 @@ header {
       border-radius: 1.2rem;
 
       .minus-mob {
-        width: 2rem;
-        height: 2rem;
+        
+          width: 2rem;
+          height: 2rem;
 
-        font-size: 2rem;
+          border: 1px solid var(--colorplace);
+          border-radius:.5rem ;
+          box-shadow: 0 .1rem .1rem var(--colorplace);
+          
+          font-size: 2rem;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
-        border-radius: 0.5rem;
       }
       .plus-mob {
         width: 2rem;
@@ -218,7 +222,9 @@ header {
 
         font-size: 2rem;
 
+        border: 1px solid var(--colorplace);
         border-radius: 0.5rem;
+        box-shadow: 0 .1rem .1rem var(--colorplace);
 
         .plu {
           transform: translateY(-0.2rem);
